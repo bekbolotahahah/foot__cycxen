@@ -1,0 +1,75 @@
+.root{
+  transition: all .5s;
+
+  &.active{
+    background: rgb(17, 18, 19);
+  }
+
+  .container{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    .navigation{
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .logo{
+
+        svg{
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      nav{
+        height: 100%;
+
+        .navigationList{
+          height: 100%;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+
+          li{
+            height: 100%;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+            font-weight: 500;
+
+            &:hover{
+              color: #752bcb;
+            }
+
+          }
+        }
+      }
+    }
+
+    .contact{
+
+      button{
+        background: #fff;
+        padding: 10px 2rem;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+        color: black;
+        text-transform: capitalize;
+        transition: all .3s;
+        border: none;
+        outline: none;
+
+        &:hover{
+          background: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+  }
+}

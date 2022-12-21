@@ -1,0 +1,25 @@
+.root{
+  width: 100%;
+
+  input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .3s;
+
+    &:focus{
+      border: 1px solid rgba(129, 1, 231, 0.56);
+    }
+
+    &::placeholder{
+      color: #bdbdbd;
+    }
+  }
+
+  span{
+    font-size: 13px;
+    color: darkred;
+  }
+}

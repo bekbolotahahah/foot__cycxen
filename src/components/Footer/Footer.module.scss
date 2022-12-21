@@ -1,0 +1,74 @@
+footer{
+
+
+background-color: rgba(28, 28, 28, 0.929);
+.conteyner{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+
+
+    
+    
+
+    .bord{
+        border-left: solid 1px white; 
+        padding: 2rem;
+    }
+
+    .logo{
+        
+        display: flex;
+        svg{
+          width: 100px;
+          height:100px;
+        }
+        ul{
+            gap: 1rem;
+            margin: 1rem 0 1rem 1rem;
+            padding-top: 1rem;
+        }
+        ul li{
+            
+            color: white;
+            font-weight: 200;
+            font-size: 14px;
+            
+        }
+
+      }
+
+      .navigationList_contact{
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+        li{
+            height: 100%;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+            font-size: 12px;
+            font-weight: 300;
+
+        }
+      }
+    .navigationList{
+       display: flex;
+     
+       gap: 1rem;
+       li{
+
+        height: 100%;
+        color: white;
+        cursor: pointer;
+        transition: .3s;
+        font-weight: 500;
+       }}
+
+  
+ 
+
+}}
